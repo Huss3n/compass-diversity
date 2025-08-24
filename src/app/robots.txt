@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://compassdiversity.com.au/sitemap.xml
