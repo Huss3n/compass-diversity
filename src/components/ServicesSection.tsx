@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Heart, Users, Home, Clock, GraduationCap, Car, ArrowRight } from 'lucide-react'
+import { Heart, Users, Home, Clock, GraduationCap, Car, ArrowRight, Building, Cross } from 'lucide-react'
 import Link from 'next/link'
 
 const services = [
@@ -40,6 +40,18 @@ const services = [
     title: 'Transport Services',
     description: 'Safe and reliable travel to appointments, activities, and community participation.',
     features: ['Medical appointments', 'Social outings', 'Shopping trips', 'Accessible vehicles']
+  },
+  {
+    icon: Building,
+    title: 'Assisted with SIL Accommodation',
+    description: 'We provide personalised support to help participants transition into Supported Independent Living (SIL). Our team works closely with individuals, families, and support coordinators to ensure the right accommodation, safety, and services are in place for greater independence.',
+    features: ['SIL transition support', 'Accommodation planning', 'Safety assessments', 'Service coordination']
+  },
+  {
+    icon: Cross,
+    title: 'Assistance with Hospital Discharge',
+    description: 'We help participants safely transition from hospital to home or community care. This includes coordinating follow-up supports, medication management, and ongoing daily assistance to make recovery smooth and stress-free.',
+    features: ['Discharge planning', 'Follow-up coordination', 'Medication management', 'Recovery support']
   }
 ]
 

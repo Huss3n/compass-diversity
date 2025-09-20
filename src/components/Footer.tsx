@@ -7,7 +7,9 @@ const services = [
   'Household Tasks',
   'Respite Care',
   'Life Skills Development',
-  'Transport Services'
+  'Transport Services',
+  'Assisted with SIL Accommodation',
+  'Assistance with Hospital Discharge'
 ]
 
 const quickLinks = [
